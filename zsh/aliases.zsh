@@ -190,3 +190,7 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
+
+
+# Custom
+alias ip='ifconfig en1 | grep inet | grep -v inet6 | cut -d " " -f 2'
