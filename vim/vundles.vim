@@ -26,6 +26,7 @@ runtime git.vundle
 runtime appearance.vundle
 runtime textobjects.vundle
 runtime search.vundle
+runtime rust.vundle
 runtime project.vundle
 runtime vim-improvements.vundle
 
