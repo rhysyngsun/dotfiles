@@ -1,0 +1,2 @@
+Bundle 'marijnh/tern_for_vim'
+Plugin 'pangloss/vim-javascript'
