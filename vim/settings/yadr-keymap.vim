@@ -111,12 +111,6 @@ map <silent> ,gz <C-w>o
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 
-" create <%= foo %> erb tags using Ctrl-k in edit mode
-imap <silent> <C-K> <%=   %><Esc>3hi
-
-" create <%= foo %> erb tags using Ctrl-j in edit mode
-imap <silent> <C-J> <%  %><Esc>2hi
-
 " ============================
 " Shortcuts for everyday tasks
 " ============================
@@ -157,3 +151,13 @@ map ,hi :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
 
 " ,hp = html preview
 map <silent> ,hp :!open -a Safari %<CR><CR>
+
+" ============================
+" Line Moving
+" ============================
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv

@@ -38,6 +38,7 @@ cscope.po.out
 *.un~
 Session.vim
 .netrwhist
+.vim-bookmarks
 *~
 
 # SASS

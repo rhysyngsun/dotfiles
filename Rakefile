@@ -173,6 +173,17 @@ def install_homebrew
   puts "======================================================"
   run %{brew install zsh ctags git hub tmux reattach-to-user-namespace the_silver_searcher}
   run %{brew install macvim --custom-icons --override-system-vim --with-lua --with-luajit}
+  run %{brew install coreutils}
+  run %{brew tap homebrew/dupes}
+  run %{brew install binutils diffutils gawk gnutls gzip watch wget}
+  run %{brew install ed --default-names}
+  run %{brew install findutils --with-default-names}
+  run %{brew install gnu-indent --with-default-names}
+  run %{brew install gnu-sed --with-default-names}
+  run %{brew install gnu-tar --with-default-names}
+  run %{brew install gnu-which --with-default-names}
+  run %{brew install grep --with-default-names}
+  run %{brew install wdiff --with-gettext}
   puts
   puts
 end
