@@ -94,6 +94,9 @@ set wildignore+=*.gem
 set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
+" K-S
+set wildignore+=*migrations*
+set wildignore+=*media*
 
 "
 " ================ Scrolling ========================
