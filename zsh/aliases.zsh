@@ -174,3 +174,4 @@ alias vs='vagrant ssh'
 
 # Custom
 alias ip='ifconfig en1 | grep inet | grep -v inet6 | cut -d " " -f 2'
+alias tmux="TERM=screen-256color-bce tmux"

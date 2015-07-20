@@ -30,3 +30,5 @@ endif
 
 colorscheme solarized
 set background=dark
+
+set colorcolumn=80
