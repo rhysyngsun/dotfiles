@@ -28,7 +28,7 @@ else
   end
 endif
 
-colorscheme pencil
+colorscheme solarized
 set background=light
 
 set colorcolumn=80

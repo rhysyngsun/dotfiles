@@ -1,1 +1,1 @@
-prompt frozen
+prompt solarized_light
