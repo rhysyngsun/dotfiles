@@ -5,6 +5,7 @@ path=(
   $HOME/.yadr/bin
   $HOME/.yadr/bin/yadr
   $HOME/bin
+  $HOME/.multirust/toolchains/nightly/cargo/bin
 )
 
 manpath=(

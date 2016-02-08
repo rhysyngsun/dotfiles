@@ -164,4 +164,4 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 
 
 " Tagbar
-nmap ,tb :TagbarToggle<CR>
+nmap ,cm :TagbarToggle<CR>
