@@ -67,7 +67,7 @@ function prompt_solarized_light_setup {
   # ruby info (rvm, rbenv)
   # zstyle ':prezto:module:ruby:info:version' format '[%v]'
 
-  PROMPT="${__PROMPT_SOLARIZED_LIGHT_COLORS[3]}%n%f@${__PROMPT_SOLARIZED_LIGHT_COLORS[2]}%m%f ${__PROMPT_SOLARIZED_LIGHT_COLORS[5]}%~%f "'$git_info[prompt]'"$ "
+  PROMPT="${__PROMPT_SOLARIZED_LIGHT_COLORS[3]}%n%f@${__PROMPT_SOLARIZED_LIGHT_COLORS[2]}%m%f ${__PROMPT_SOLARIZED_LIGHT_COLORS[5]}%~%f "'$git_info[prompt]'" \$AWS_PROFILE$ "
   # RPROMPT='%F{blue}${ruby_info[version]}'
 }
 

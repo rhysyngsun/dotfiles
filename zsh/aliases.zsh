@@ -65,6 +65,11 @@ alias ze='vim ~/.zshrc'
 alias zr='source ~/.zshrc'
 
 # Git Aliases
+git_month_branch() {
+  date="$(date '+%Y%m')"
+  git checkout -b "${date}_$1"
+}
+
 alias gs='git status'
 alias gstsh='git stash'
 alias gst='git stash'
@@ -110,6 +115,7 @@ alias gplr='git pull --rebase'
 alias gps='git push'
 alias gpsh='git push -u origin `git rev-parse --abbrev-ref HEAD`'
 alias gnb='git nb' # new branch aka checkout -b
+alias gmb=git_month_branch
 alias grs='git reset'
 alias grsh='git reset --hard'
 alias gcln='git clean'
